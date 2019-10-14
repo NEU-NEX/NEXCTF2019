@@ -16,7 +16,7 @@ void init(){
 
 void vuln(){
     uint8_t buf[0x20];
-    read(0, buf, 0x50);
+    read(0, buf, 0x30);
     return;
 }
 
